@@ -2,17 +2,10 @@
 Speed: Area 1KB, Ultra-Absolute 146 Bytes Absolute 2KB Ultra 2MB-10MB Max 8GB-80GB/s
 
 Instruction:
-1. Need python 3.8.3
-2. install pip: pip install zstandard
+1. Need python 3.8.3; 3.9.5
 3. install pip: pip install brotli
-4. install pip: pip install lzma
-5.
-ul, cld, cld3 ; cldd3, cldd, cl .bin.bin.bin.bin.bin.bin
-
-cld, cld3; cldd3 cld .bin.bin.bin.bin.bin
-
-cld, cld3, cld, cld3; cldd3, cldd, cldd3, cldd .bin.bin.bin.bin.bin.bin.bin.bin.bin.bin
-
+3. install pip: pip install lzma
+4.
 ul; cl; .bin
 
 cld ; cldd .bin.bin
