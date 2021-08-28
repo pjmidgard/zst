@@ -10,6 +10,8 @@ ul; cl; .bin
 
 cld ; cldd .bin.bin
 
+ul2, cld; cldd cl2 .bin.bin.bin.bin.bin
+
 ul, cld; cl, cldd .bin.bin.bin
 
 c; u .bin.bin.bin.bin.bin.bin.bin.bin.bin.bin.bin
