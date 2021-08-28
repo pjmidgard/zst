@@ -2,7 +2,7 @@
 Speed: Area 1KB, Ultra-Absolute 146 Bytes Absolute 2KB Ultra 2MB-10MB Max 8GB-80GB/s
 
 Instruction:
-1. Need python 3.9.6
+1. Need python 3.8.3
 2. install pip: pip install lzma
 3.
 
