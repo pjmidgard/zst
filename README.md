@@ -1,4 +1,7 @@
 # Portal-zst
+
+https://youtu.be/Ne82lgXQPFY
+
 Speed: Absolute 2KB Ultra 2MB-10MB Max 8GB-80GB/s
 
 Instruction:
