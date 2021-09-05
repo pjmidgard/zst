@@ -3669,8 +3669,8 @@ class compression:
                         data = binary_file.read()
                         lenf10=len(data)
                    
-                        import brotli
-                        data=brotli.compress(data)
+                        import lzma
+                        data=lzma.compress(data)
                       
                         s=str(data)
                         lenf1=len(data)
@@ -3742,8 +3742,8 @@ class compression:
                         data = binary_file.read()
                         lenf10=len(data)
                    
-                        import brotli
-                        data=brotli.decompress(data)
+                        import lzma
+                        data=lzma.decompress(data)
                 
                         s=str(data)
                         lenf1=len(data)
