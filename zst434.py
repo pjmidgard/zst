@@ -66,35 +66,35 @@ namez = input("ul,c,c2 or for compress cl for extract for compress zst cld,u,u2 
 #@Author Jurijus pacalovas
 class compression:
 
-	def cryptograpy_unpack5(self):                      
-                 if namez=="cl5":
-                    corridors=0
-                    cor=7
-                    name = input("What is name of file? ")
-                    Portal=2
-                    namea="file.W"
-                    namem=""
-                    namema="?"
+    def cryptograpy_unpack5(self):                      
+            if namez=="cl5":
+                corridors=0
+                cor=7
+                name = input("What is name of file? ")
+                Portal=2
+                namea="file.W"
+                namem=""
+                namema="?"
                  
-                    assxw=0
-                    blockw=5
-                    blockw1=4
-                    nameas=name
-                    nac=len(nameas)
-                    nameas=name[:nac-16]
-                    nac=len(nameas)
-                    if nameas[nac-5:nac]==".docx":
-                    	Portal=1
-                    if nameas[nac-4:nac]==".pdf":
-                    	Portal=3
-                    if nameas[nac-4:nac]==".doc":
-                    	Portal=1
-                    if nameas[nac-4:nac]==".png":
-                    	Portal=7
-                    if nameas[nac-4:nac]==".mp4":
-                    	Portal=8
-                    if nameas[nac-4:nac]==".jpg":
-                    	Portal=9
+                assxw=0
+                blockw=5
+                blockw1=4
+                nameas=name
+                nac=len(nameas)
+                nameas=name[:nac-16]
+                nac=len(nameas)
+                if nameas[nac-5:nac]==".docx":
+                    Portal=1
+                if nameas[nac-4:nac]==".pdf":
+                    Portal=3
+                if nameas[nac-4:nac]==".doc":
+                    Portal=1
+                if nameas[nac-4:nac]==".png":
+                    Portal=7
+                if nameas[nac-4:nac]==".mp4":
+                    Portal=8
+                if nameas[nac-4:nac]==".jpg":
+                    Portal=9
                     
                     
                     nac=len(nameas)
@@ -534,7 +534,7 @@ class compression:
                                             x3=x2-x
                                             return print(x3)
 
-	def cryptograpy_compression5(self):
+    def cryptograpy_compression5(self):
       
                 if namez=="ul5":
                     corridors=0
@@ -1015,7 +1015,7 @@ class compression:
                                             x3=x2-x
                                             return print(x3)
 
-	def cryptograpy_unpack4(self):                      
+    def cryptograpy_unpack4(self):                      
                  if namez=="cl4":
                     corridors=0
                     cor=7
@@ -1231,7 +1231,7 @@ class compression:
                                             x3=x2-x
                                             return print(x3)
                                             
-	def cryptograpy_compression4(self):
+    def cryptograpy_compression4(self):
                 
                
                 self.name = "Written: Jurijus pacalovas Price Protal 5 000 000 Euro cost Date: 30/08/2021 15:21 Deep 14.5 ERA"
@@ -1466,8 +1466,8 @@ class compression:
                                             x3=x2-x
                                             return print(x3)
       
-	def Areacu2(self):
-		if namez=="u2":
+    def Areacu2(self):
+	    if namez=="u2":
 	            x=0
 	            x1=0
 	            x2=0
@@ -1840,8 +1840,8 @@ class compression:
 	                        return print(x3) 
 
     
-	def Areac2(self):
-		if namez=="c2":
+    def Areac2(self):
+	    if namez=="c2":
 	            x=0
 	            x1=0
 	            x2=0
@@ -2173,8 +2173,8 @@ class compression:
 	                x3 = x2-x
 	                return print(x3)
 	                
-	def Uextract(self):
-		    if namez=="u":
+    def Uextract(self):
+	    if namez=="u":
 			    name = input("What is name of file? ")
 			    
 			    x=0
@@ -2572,8 +2572,8 @@ class compression:
 			                x3 = x2-x
 			                return print(x3)
 
-	def Ccompress(self):
-		if namez=="c":
+    def Ccompress(self):
+	    if namez=="c":
 			    name = input("What is name of file? ")
 			    
 			    x=0
@@ -2917,7 +2917,7 @@ class compression:
 	                #x3=x2-x
 			        return print(x3)
 
-	def cryptograpy_compression(self):
+    def cryptograpy_compression(self):
                 
                 self.name = "Written: Jurijus pacalovas Price Protal 5 000 000 Euro cost Date: 29/08/2021 21:33 Deep 14.5 ERA"
                 
@@ -3076,203 +3076,200 @@ class compression:
                                 	if e4=="0":
 	                                    sda3=sda3+"0"
 	                                    e4="0"
-	                                    e4=""  
-                                   
-                                  
-	                                if e4=="1":
-	                                    sda3=sda3+"1"
-	                                    e4="1"
-	                                    e4=""   
-		                           
-	                                elif e4=="1" and e3== e3%10:
-	                                	sda3=sda3+"0"
-	                                	e4="0"
-	                                	e4=""
-	                                    
-	                                elif e4=="0" and e3== e3%11:
-	                                    sda3=sda3+"1"
-	                                    e4="1"
 	                                    e4=""
-	                                    
-	                                        
-	                                elif e4=="1":
-	                                	sda3=sda3+"0"
-	                                	e4="0"
-	                                	e4=""
-	                                    
-	                                elif e4=="0":
-	                                    sda3=sda3+"1"
-	                                    e4="1"
-	                                    e4=""
-	                                	
-	                                	
-	                                if e4=="0":
-	                                    sda3=sda3+"0"
-	                                    e4="0"
-	                                    e4="" 
-	                                elif e4=="1":
-	                                    sda3=sda3+"1"
-	                                    e4="1"
-	                                    e4=""   
-		                           
-	                                elif e4=="1" and e3== e3%3:
-	                                	sda3=sda3+"0"
-	                                	e4="0"
-	                                	e4=""
-	                                    
-	                                elif e4=="0" and e3== e3%2:
-	                                    sda3=sda3+"1"
-	                                    e4="1"
-	                                    e4=""
-	                                    
-	                                        
-	                                elif e4=="1":
-	                                	sda3=sda3+"0"
-	                                	e4="0"
-	                                	e4=""
-	                                    
-	                                elif e4=="0":
-	                                    sda3=sda3+"1"
-	                                    e4="1"
-	                                    e4=""
-                                
-                                
-                                
-	                                elif e4=="0" and e3== e3%9:
-	                                	sda3=sda3+"1"
-	                                	e4="1"
-	                                	e4=""
-	                                    
-	                                elif e4=="1" and e3== e3%8:
-	                                    sda3=sda3+"0"
-	                                    e4="0"
-	                                    e4=""
-	                                    
-	                                        
-	                                elif e4=="1" and e3 ==e3%1:
-	                                	sda3=sda3+"0"
-	                                	e4="0"
-	                                	e4=""
-	                                	
-	                                elif e4=="0" and e3 ==e3%1:
-	                                	sda3=sda3+"1"
-	                                	e4="1"
-	                                	e4=""
-	                                	
-	                                	
-	                                	
-	                                elif e4=="0":
-	                                    sda3=sda3+"0"
-	                                    e4="0"
-	                                    e4="" 
-	                                elif e4=="1":
-	                                    sda3=sda3+"1"
-	                                    e4="1"
-	                                    e4=""   
-                                
-                                if e4=="1" and e3== e3%9+assxw:
-                                	sda3=sda3+"0"
-                                	e4="0"
-                                	e4=""
-                                    
-                                elif e4=="0" and e3== e3%8+assxw:
+                                if e4=="1":
                                     sda3=sda3+"1"
                                     e4="1"
-                                    e4=""
-                                
-                                elif e4=="0" and e3== e3%7:
-                                	sda3=sda3+"1"
-                                	e4="0"
-                                	e4=""
-                                    
-                                elif e4=="1" and e3== e3%6:
+                                    e4=""   
+
+                                elif e4=="1" and e3== e3%10:
                                     sda3=sda3+"0"
-                                    e4="1"
+                                    e4="0"
                                     e4=""
-                                
-                                elif e4=="0" and e3== e3%5:
-                                	sda3=sda3+"0"
-                                	e4="0"
-                                	e4=""
-                                    
-                                elif e4=="1" and e3== e3%4:
+    
+                                elif e4=="0" and e3== e3%11:
                                     sda3=sda3+"1"
                                     e4="1"
                                     e4=""
-                                    
-                           
+
+
+                                elif e4=="1":
+                                    sda3=sda3+"0"
+                                    e4="0"
+                                    e4=""
+
+                                elif e4=="0":
+                                    sda3=sda3+"1"
+                                    e4="1"
+                                    e4=""
+
+
+                                if e4=="0":
+                                    sda3=sda3+"0"
+                                    e4="0"
+                                    e4="" 
+                                elif e4=="1":
+                                    sda3=sda3+"1"
+                                    e4="1"
+                                    e4=""   
+
                                 elif e4=="1" and e3== e3%3:
-                                	sda3=sda3+"0"
-                                	e4="0"
-                                	e4=""
-                                    
+                                    sda3=sda3+"0"
+                                    e4="0"
+                                    e4=""
+
                                 elif e4=="0" and e3== e3%2:
                                     sda3=sda3+"1"
                                     e4="1"
                                     e4=""
-                                    
-                                        
+
+
                                 elif e4=="1":
-                                	sda3=sda3+"0"
-                                	e4="0"
-                                	e4=""
-                                    
+                                    sda3=sda3+"0"
+                                    e4="0"
+                                    e4=""
+
+                                elif e4=="0":
+                                    sda3=sda3+"1"
+                                    e4="1"
+                                    e4=""
+
+
+
+                                elif e4=="0" and e3== e3%9:
+                                    sda3=sda3+"1"
+                                    e4="1"
+                                    e4=""
+
+                                elif e4=="1" and e3== e3%8:
+                                    sda3=sda3+"0"
+                                    e4="0"
+                                    e4=""
+
+
+                                elif e4=="1" and e3 ==e3%1:
+                                    sda3=sda3+"0"
+                                    e4="0"
+                                    e4=""
+
+                                elif e4=="0" and e3 ==e3%1:
+                                    sda3=sda3+"1"
+                                    e4="1"
+                                    e4=""
+
+
+
+                                elif e4=="0":
+                                    sda3=sda3+"0"
+                                    e4="0"
+                                    e4="" 
+                                elif e4=="1":
+                                    sda3=sda3+"1"
+                                    e4="1"
+                                    e4=""   
+
+                                if e4=="1" and e3== e3%9+assxw:
+                                    sda3=sda3+"0"
+                                    e4="0"
+                                    e4=""
+
+                                elif e4=="0" and e3== e3%8+assxw:
+                                    sda3=sda3+"1"
+                                    e4="1"
+                                    e4=""
+
+                                elif e4=="0" and e3== e3%7:
+                                    sda3=sda3+"1"
+                                    e4="0"
+                                    e4=""
+
+                                elif e4=="1" and e3== e3%6:
+                                    sda3=sda3+"0"
+                                    e4="1"
+                                    e4=""
+
+                                elif e4=="0" and e3== e3%5:
+                                    sda3=sda3+"0"
+                                    e4="0"
+                                    e4=""
+
+                                elif e4=="1" and e3== e3%4:
+                                    sda3=sda3+"1"
+                                    e4="1"
+                                    e4=""
+
+
+                                elif e4=="1" and e3== e3%3:
+                                    sda3=sda3+"0"
+                                    e4="0"
+                                    e4=""
+
+                                elif e4=="0" and e3== e3%2:
+                                    sda3=sda3+"1"
+                                    e4="1"
+                                    e4=""
+
+
+                                elif e4=="1":
+                                    sda3=sda3+"0"
+                                    e4="0"
+                                    e4=""
+
                                 elif e4=="0":
                                     sda3=sda3+"1"
                                     e4="1"
                                     e4=""                                
- 
-                             
+
+
                                 e2=e2+1
                                 e3=e3+1
 
                                 e4=""
-                          
+
                                 if e3==cvf:
                                     e2=0
                                     e3=1
-                                    
-                                    cvf=cvf+1
 
-                                    cvf=sw
-                                    sw=sw+1
-                             
+                                cvf=cvf+1
+
+                                cvf=sw
+                                sw=sw+1
+
                                 if cvf==lenf5*8+4:
                                     sw=sw+2
                                     cvf=c
                                     cvf1=cvf1+1
-                                     
+
                                     c=c+2
 
                                 if cvf1==1:
-                                   
+
                                     n = int(sda3, 2)
-                                
+
                                     qqwslenf=len(sda3)
                                     qqwslenf=(qqwslenf/8)*2
                                     qqwslenf=str(qqwslenf)
                                     qqwslenf="%0"+qqwslenf+"x"
-                             
+
                                     jl=binascii.unhexlify(qqwslenf % n)
                                     sssssw=len(jl)
                                     data=jl
-                                    
+
                                     qqqwz=qqqwz+1
                                     szxzzza=""
                                     szxzs=""
-                            
+
                                     assxw=assxw+1
                                     if assxw==200:
                                         assx=10
-                                        if assx==10:
-                                        	
-                                            f2.write(jl)
-                                            x2 = time()
-                                            x3=x2-x
-                                            return print(x3)
-
-	def cryptograpy_unpack(self):                      
-                 if namez=="cl":
+                                    if assx==10:
+                                        f2.write(jl)
+                                        x2 = time()
+                                        x3=x2-x
+                                        return print(x3)
+                                                                        
+    def cryptograpy_unpack(self):                      
+        if namez=="cl":
                     corridors=0
                     cor=7
                     name = input("What is name of file? ")
@@ -3414,155 +3411,155 @@ class compression:
                                 block=block+1 
                                 
                                 if assxw==e3%2 or assxw==e3%10:
-                                	if e4=="0":
-	                                    sda3=sda3+"0"
-	                                    e4="0"
-	                                    e4=""  
+                                            if e4=="0":
+                                                sda3=sda3+"0"
+                                                e4="0"
+                                                e4=""  
                                    
                                   
-	                                if e4=="1":
-	                                    sda3=sda3+"1"
-	                                    e4="1"
-	                                    e4=""   
-		                           
-	                                elif e4=="1" and e3== e3%10:
-	                                	sda3=sda3+"0"
-	                                	e4="0"
-	                                	e4=""
-	                                    
-	                                elif e4=="0" and e3== e3%11:
-	                                    sda3=sda3+"1"
-	                                    e4="1"
-	                                    e4=""
-	                                    
-	                                        
-	                                elif e4=="1":
-	                                	sda3=sda3+"0"
-	                                	e4="0"
-	                                	e4=""
-	                                    
-	                                elif e4=="0":
-	                                    sda3=sda3+"1"
-	                                    e4="1"
-	                                    e4=""
-	                                	
-	                                	
-	                                if e4=="0":
-	                                    sda3=sda3+"0"
-	                                    e4="0"
-	                                    e4="" 
-	                                elif e4=="1":
-	                                    sda3=sda3+"1"
-	                                    e4="1"
-	                                    e4=""   
-		                           
-	                                elif e4=="1" and e3== e3%3:
-	                                	sda3=sda3+"0"
-	                                	e4="0"
-	                                	e4=""
-	                                    
-	                                elif e4=="0" and e3== e3%2:
-	                                    sda3=sda3+"1"
-	                                    e4="1"
-	                                    e4=""
-	                                    
-	                                        
-	                                elif e4=="1":
-	                                	sda3=sda3+"0"
-	                                	e4="0"
-	                                	e4=""
-	                                    
-	                                elif e4=="0":
-	                                    sda3=sda3+"1"
-	                                    e4="1"
-	                                    e4=""
-                                
-                                
-                                
-	                                elif e4=="0" and e3== e3%9:
-	                                	sda3=sda3+"1"
-	                                	e4="1"
-	                                	e4=""
-	                                    
-	                                elif e4=="1" and e3== e3%8:
-	                                    sda3=sda3+"0"
-	                                    e4="0"
-	                                    e4=""
-	                                    
-	                                        
-	                                elif e4=="1" and e3 ==e3%1:
-	                                	sda3=sda3+"0"
-	                                	e4="0"
-	                                	e4=""
-	                                	
-	                                elif e4=="0" and e3 ==e3%1:
-	                                	sda3=sda3+"1"
-	                                	e4="1"
-	                                	e4=""
-	                                	
-	                                	
-	                                	
-	                                elif e4=="0":
-	                                    sda3=sda3+"0"
-	                                    e4="0"
-	                                    e4="" 
-	                                elif e4=="1":
-	                                    sda3=sda3+"1"
-	                                    e4="1"
-	                                    e4=""   
-                                
-                                if e4=="1" and e3== e3%9+assxw:
-                                	sda3=sda3+"0"
-                                	e4="0"
-                                	e4=""
+                                            if e4=="1":
+                                                sda3=sda3+"1"
+                                                e4="1"
+                                                e4=""   
+                                               
+                                            elif e4=="1" and e3== e3%10:
+                                                    sda3=sda3+"0"
+                                                    e4="0"
+                                                    e4=""
+                                                
+                                            elif e4=="0" and e3== e3%11:
+                                                sda3=sda3+"1"
+                                                e4="1"
+                                                e4=""
+                                                
+                                                    
+                                            elif e4=="1":
+                                                    sda3=sda3+"0"
+                                                    e4="0"
+                                                    e4=""
+                                                
+                                            elif e4=="0":
+                                                sda3=sda3+"1"
+                                                e4="1"
+                                                e4=""
+                                                    
+                                                    
+                                            if e4=="0":
+                                                sda3=sda3+"0"
+                                                e4="0"
+                                                e4="" 
+                                            elif e4=="1":
+                                                sda3=sda3+"1"
+                                                e4="1"
+                                                e4=""   
+                                               
+                                            elif e4=="1" and e3== e3%3:
+                                                    sda3=sda3+"0"
+                                                    e4="0"
+                                                    e4=""
+                                                
+                                            elif e4=="0" and e3== e3%2:
+                                                sda3=sda3+"1"
+                                                e4="1"
+                                                e4=""
+                                                
+                                                    
+                                            elif e4=="1":
+                                                    sda3=sda3+"0"
+                                                    e4="0"
+                                                    e4=""
+                                                
+                                            elif e4=="0":
+                                                sda3=sda3+"1"
+                                                e4="1"
+                                                e4=""
                                     
-                                elif e4=="0" and e3== e3%8+assxw:
-                                    sda3=sda3+"1"
-                                    e4="1"
-                                    e4=""
-                                
-                                elif e4=="0" and e3== e3%7:
-                                	sda3=sda3+"1"
-                                	e4="0"
-                                	e4=""
                                     
-                                elif e4=="1" and e3== e3%6:
-                                    sda3=sda3+"0"
-                                    e4="1"
-                                    e4=""
-                                
-                                elif e4=="0" and e3== e3%5:
-                                	sda3=sda3+"0"
-                                	e4="0"
-                                	e4=""
                                     
-                                elif e4=="1" and e3== e3%4:
-                                    sda3=sda3+"1"
-                                    e4="1"
-                                    e4=""
+                                            elif e4=="0" and e3== e3%9:
+                                                    sda3=sda3+"1"
+                                                    e4="1"
+                                                    e4=""
+                                                
+                                            elif e4=="1" and e3== e3%8:
+                                                sda3=sda3+"0"
+                                                e4="0"
+                                                e4=""
+                                                
+                                                    
+                                            elif e4=="1" and e3 ==e3%1:
+                                                    sda3=sda3+"0"
+                                                    e4="0"
+                                                    e4=""
+                                                    
+                                            elif e4=="0" and e3 ==e3%1:
+                                                    sda3=sda3+"1"
+                                                    e4="1"
+                                                    e4=""
+                                                    
+                                                    
+                                                    
+                                            elif e4=="0":
+                                                sda3=sda3+"0"
+                                                e4="0"
+                                                e4="" 
+                                            elif e4=="1":
+                                                sda3=sda3+"1"
+                                                e4="1"
+                                                e4=""   
                                     
-                           
-                                elif e4=="1" and e3== e3%3:
-                                	sda3=sda3+"0"
-                                	e4="0"
-                                	e4=""
-                                    
-                                elif e4=="0" and e3== e3%2:
-                                    sda3=sda3+"1"
-                                    e4="1"
-                                    e4=""
-                                    
-                                        
-                                elif e4=="1":
-                                	sda3=sda3+"0"
-                                	e4="0"
-                                	e4=""
-                                    
-                                elif e4=="0":
-                                    sda3=sda3+"1"
-                                    e4="1"
-                                    e4=""                                
- 
+                                            if e4=="1" and e3== e3%9+assxw:
+                                                    sda3=sda3+"0"
+                                                    e4="0"
+                                                    e4=""
+                                                
+                                            elif e4=="0" and e3== e3%8+assxw:
+                                                sda3=sda3+"1"
+                                                e4="1"
+                                                e4=""
+                                            
+                                            elif e4=="0" and e3== e3%7:
+                                                    sda3=sda3+"1"
+                                                    e4="0"
+                                                    e4=""
+                                                
+                                            elif e4=="1" and e3== e3%6:
+                                                sda3=sda3+"0"
+                                                e4="1"
+                                                e4=""
+                                            
+                                            elif e4=="0" and e3== e3%5:
+                                                    sda3=sda3+"0"
+                                                    e4="0"
+                                                    e4=""
+                                                
+                                            elif e4=="1" and e3== e3%4:
+                                                sda3=sda3+"1"
+                                                e4="1"
+                                                e4=""
+                                                
+                                       
+                                            elif e4=="1" and e3== e3%3:
+                                                    sda3=sda3+"0"
+                                                    e4="0"
+                                                    e4=""
+                                                
+                                            elif e4=="0" and e3== e3%2:
+                                                sda3=sda3+"1"
+                                                e4="1"
+                                                e4=""
+                                                
+                                                    
+                                            elif e4=="1":
+                                                    sda3=sda3+"0"
+                                                    e4="0"
+                                                    e4=""
+                                                
+                                            elif e4=="0":
+                                                sda3=sda3+"1"
+                                                e4="1"
+                                                e4=""                                
+     
 	                                                  
                                 e2=e2+1
                                 e3=e3+1
@@ -3617,8 +3614,8 @@ class compression:
                                             x3=x2-x
                                             return print(x3)
                  
-	def cryptograpy(self):
-                if namez=="cld":
+    def cryptograpy(self):
+        if namez=="cld":
                     name = input("What is name of file? ")
                     namea="file.W"
                     namem=""
@@ -3689,8 +3686,8 @@ class compression:
                                 x3=x2-x
                                 return print(x3)
                                 
-	def cryptograpy_unpack2(self):
-                if namez=="cldd":
+    def cryptograpy_unpack2(self):
+        if namez=="cldd":
                     name = input("What is name of file? ")
                     namea="file.W"
                     namem=""
@@ -3761,8 +3758,8 @@ class compression:
                                 x3=x2-x
                                 return print(x3) 
 
-	def cryptograpy3(self):
-                if namez=="cld3":
+    def cryptograpy3(self):
+        if namez=="cld3":
                     name = input("What is name of file? ")
                     namea="file.W"
                     namem=""
@@ -3843,8 +3840,8 @@ class compression:
                                 x3=x2-x
                                 return print(x3)      
  
-	def cryptograpy_unpack3(self):
-                if namez=="cldd3":
+    def cryptograpy_unpack3(self):
+        if namez=="cldd3":
                     name = input("What is name of file? ")
                     namea="file.W"
                     namem=""
