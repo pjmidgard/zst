@@ -3671,7 +3671,7 @@ class compression:
                    
                         import lzma
                         data=lzma.compress(data)
-                         lif  data [0:5] == b'\xfd\x37\x7a\x58\x5a':
+                        if  data [0:5] == b'\xfd\x37\x7a\x58\x5a':
                             data=data[5:] 
                       
                         s=str(data)
