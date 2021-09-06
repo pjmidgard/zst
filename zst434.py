@@ -3671,7 +3671,7 @@ class compression:
                    
                         import lzma
                         data=lzma.compress(data)
-               ] 
+               
                       
                         s=str(data)
                         lenf1=len(data)
