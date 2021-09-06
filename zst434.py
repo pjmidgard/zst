@@ -3671,6 +3671,8 @@ class compression:
                    
                         import lzma
                         data=lzma.compress(data)
+                         lif  data [0:5] == b'\xfd\x37\x7a\x58\x5a':
+                            data=data[5:] 
                       
                         s=str(data)
                         lenf1=len(data)
@@ -3741,9 +3743,12 @@ class compression:
                         # Read the whole file at once
                         data = binary_file.read()
                         lenf10=len(data)
-                   
+                        
+                        data=b'\xfd\x37\x7a\x58\x5a'+data 
+                    
                         import lzma
                         data=lzma.decompress(data)
+                     
                 
                         s=str(data)
                         lenf1=len(data)
@@ -3758,156 +3763,7 @@ class compression:
                                 x3=x2-x
                                 return print(x3) 
 
-    def cryptograpy3(self):
-        if namez=="cld3":
-                    name = input("What is name of file? ")
-                    namea="file.W"
-                    namem=""
-                    namema="?"
-                    Portal=5
-                    assxw=0
-                    blockw=5
-                    blockw1=4
-                    nameas=name
-                    nac=len(nameas)             
-                    if nameas[nac-16:nac]==".jpg.bin.bin.bin":
-                    	Portal=2
-                    if nameas[nac-16:nac]==".png.bin.bin.bin":
-                    	Portal=2
-                    if nameas[nac-12:nac]==".jpg.bin.bin":
-                    	Portal=2
-                    if nameas[nac-12:nac]==".png.bin.bin":
-                    	Portal=4
-                    nac=len(nameas)
-                    nameas=name+".bin.bin.bin"
-                    
-                    countraz=0
-                    cvf=2
-                    cvf1=0
-                    s=""
-                    e2=0
-                    e3=2
-                    e4=""
-                    c=2
-                    sw=2
-                    elw=0
-                   
-                    sda3=""
-
-                    sscvf=0
-                    
-                    qqqqwzl=0
-
-                    block=0
-
-                    x=0
-                    x1=0
-                    x2=0
-                    x = time()
-                   
-                    with open(nameas, "w") as f4:
-                            f4.write(s)
-                    with open(nameas, "a") as f3:
-                            f3.write(s)
-                    with open(name, "rb") as binary_file:
-                        # Read the whole file at once
-                        data = binary_file.read()
-                        
-                      
-                      
-                        
-                        if  data [0:5] == b'\xfd\x37\x7a\x58\x5a':
-                            data=data[5:]  
-                                    
-                        else:
-                        	print("Program close because this is file incorrect or compression finished before.")
-                        	raise SystemExit	
-
-                        
-                        
-                        s=str(data)
-                        lenf1=len(data)
-                        lenf5=len(data)
-             
-                        
-                        with open(nameas, "ab") as f2:
-                            assx=10
-                            if assx==10:
-                                f2.write(data)
-                                x2 = time()
-                                x3=x2-x
-                                return print(x3)      
- 
-    def cryptograpy_unpack3(self):
-        if namez=="cldd3":
-                    name = input("What is name of file? ")
-                    namea="file.W"
-                    namem=""
-                    namema="?"
-                    
-                    Portal=5
-                    assxw=0
-                    blockw=5
-                    blockw1=4
-                    nameas=name
-                    nac=len(nameas)
-                    nameas=name[:nac-12]
-                    if nameas[nac-16:nac]==".jpg.bin.bin.bin":
-                    	Portal=4
-                    if nameas[nac-16:nac]==".png.bin.bin.bin":
-                    	Portal=4
-                    if nameas[nac-12:nac]==".jpg.bin.bin":
-                    	Portal=4
-                    if nameas[nac-12:nac]==".png.bin.bin":
-                    	Portal=4    
-                    countraz=0
-                    cvf=2
-                    cvf1=0
-                    s=""
-                    e2=0
-                    e3=2
-                    e4=""
-                    c=2
-                    sw=2
-                    elw=0
-                   
-                    sda3=""
-
-                    sscvf=0
-                    
-                    qqqqwzl=0
-
-                    block=0
-
-                    x=0
-                    x1=0
-                    x2=0
-                    x = time()
-                   
-                    with open(nameas, "w") as f4:
-                            f4.write(s)
-                    with open(nameas, "a") as f3:
-                            f3.write(s)
-                    with open(name, "rb") as binary_file:
-                        # Read the whole file at once
-                        data = binary_file.read()
-                       
-                       
-                        	
-                        data=b'\xfd\x37\x7a\x58\x5a'+data 
-                    
-                        s=str(data)
-                        lenf1=len(data)
-                        lenf5=len(data)
-    
-                        with open(nameas, "ab") as f2:
-                            assx=10
-                            if assx==10:
-                                
-                                f2.write(data)
-                                x2 = time()
-                                x3=x2-x
-                                return print(x3)                      
+           
                                 
 d=compression()
 
@@ -3946,9 +3802,3 @@ print(xw2)
 
 xw3=d.cryptograpy_unpack2()
 print(xw3)
-
-xw4=d.cryptograpy_unpack3()
-print(xw4)
-
-xw5=d.cryptograpy3()
-print(xw5)
