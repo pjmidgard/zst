@@ -3814,11 +3814,9 @@ class compression:
                         data = binary_file.read()
                         
                       
-                        if  data [0:4] == b'\x28\xb5\x2f\xfd':
-                            data=data[4:]  
+                      
                         
-                        
-                        elif  data [0:5] == b'\xfd\x37\x7a\x58\x5a':
+                        if  data [0:5] == b'\xfd\x37\x7a\x58\x5a':
                             data=data[5:]  
                                     
                         else:
@@ -3894,10 +3892,9 @@ class compression:
                         # Read the whole file at once
                         data = binary_file.read()
                        
-                        if Portal==5:
-                        	data = b'\x28\xb5\x2f\xfd'+data
-                        if Portal==4:
-                        	data=b'\xfd\x37\x7a\x58\x5a'+data 
+                       
+                        	
+                        data=b'\xfd\x37\x7a\x58\x5a'+data 
                     
                         s=str(data)
                         lenf1=len(data)
