@@ -11,10 +11,6 @@ Instruction:
 4. install pip: pip install lzma
 4.
 
-cld; cld3; cldd3, cldd .bin.bin.bin.bin.bin
-
-ul, cld; cld3; cldd3, cldd cl .bin.bin.bin.bin.bin.bin
-
 ul; cl; .bin
 
 cld ; cldd .bin.bin
