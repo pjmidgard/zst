@@ -21,7 +21,11 @@ cld ; cldd .bin.bin
 
 ul, cld; cl, cldd .bin.bin.bin
 
+ul5, cld, cld3; cl5, cldd, cldd3 .bin.bin.bin.bin.bin.bin.bin.bin.bin.bin.bin
+
 ul5, cld; cl5, cldd .bin.bin.bin.bin.bin.bin
+
+ul4, cld, cld3; cl4, cldd, cldd3  .bin.bin.bin.bin.bin.bin.bin.bin.bin.bin
 
 ul4, cld; cl4, cldd .bin.bin.bin.bin.bin
 
