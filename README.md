@@ -6,10 +6,8 @@ Speed: Area 100B-1KB Absolute 2KB Ultra 2MB-10MB Max 8GB-80GB/s
 
 Instruction:
 1. Need python 
-2. install pip: pip install zstd
-3. install pip: pip install brotli
-4. install pip: pip install lzma
-4.
+2. install pip: pip install lzma
+3.
 
 cld, cld3; cldd, cldd3 .bin.bin.bin.bin.bin.bin.bin
 
