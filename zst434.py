@@ -3672,8 +3672,8 @@ class compression:
                         data = binary_file.read()
                         lenf10=len(data)
                    
-                        import lzma
-                        data=lzma.compress(data)
+                        import zstandard
+                        data=zstandard.compress(data)
                       
                         s=str(data)
                         lenf1=len(data)
@@ -3745,8 +3745,8 @@ class compression:
                         data = binary_file.read()
                         lenf10=len(data)
                    
-                        import lzma
-                        data=lzma.decompress(data)
+                        import zstandard
+                        data=zstandard.decompress(data)
                 
                         s=str(data)
                         lenf1=len(data)
@@ -3813,8 +3813,8 @@ class compression:
                         
                         
                         
-                        if  data [0:5] == b'\xfd\x37\x7a\x58\x5a':
-                            data=data[5:]  
+                        if  data [0:4] == b'\x28\xb5\x2f\xfd':
+                            data=data[4:]  
                                     
                         else:
                         	print("Program close because this is file incorrect or compression finished before.")
@@ -3883,7 +3883,7 @@ class compression:
                         data = binary_file.read()
                        
                         
-                        data=b'\xfd\x37\x7a\x58\x5a'+data 
+                        data=b'\x28\xb5\x2f\xfd'+data 
                     
                         s=str(data)
                         lenf1=len(data)
