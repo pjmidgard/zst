@@ -1481,8 +1481,8 @@ class compression:
                         blockw1=4
                         nameas=name
                         nac=len(nameas)
-                        if nameas[nac-48:nac]==".bin.bin.bin.bin.bin.bin.bin.bin.bin.bin.bin.bin":
-                            nameas=nameas[0:nac-48]
+                        if nameas[nac-52:nac]==".bin.bin.bin.bin.bin.bin.bin.bin.bin.bin.bin.bin.bin":
+                            nameas=nameas[0:nac-52]
                         countraz=0
                         
                         s=""
@@ -1936,7 +1936,7 @@ class compression:
                         numbers = []
                             
                         
-                        namea=name+".bin.bin.bin.bin.bin.bin.bin.bin.bin.bin.bin.bin"
+                        namea=name+".bin.bin.bin.bin.bin.bin.bin.bin.bin.bin.bin.bin.bin"
                         namem=name+"/"
             
                         nameas=name
@@ -2254,8 +2254,8 @@ class compression:
 			    blockw1=4
 			    nameas=name
 			    nac=len(nameas)
-			    if nameas[nac-44:nac]==".bin.bin.bin.bin.bin.bin.bin.bin.bin.bin.bin":
-			        nameas=nameas[0:nac-44]
+			    if nameas[nac-56:nac]==".bin.bin.bin.bin.bin.bin.bin.bin.bin.bin.bin.bin.bin.bin":
+			        nameas=nameas[0:nac-56]
 			    countraz=0
 			    
 			    s=""
@@ -2674,7 +2674,7 @@ class compression:
                                 numberschangenotexist = []
                                 numbers = []
                                 
-                                namea=name+".bin.bin.bin.bin.bin.bin.bin.bin.bin.bin.bin"
+                                namea=name+".bin.bin.bin.bin.bin.bin.bin.bin.bin.bin.bin.bin.bin.bin"
                                 namem=name+"/"
                             
                                 nameas=name
